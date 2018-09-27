@@ -1,0 +1,402 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700");
+@import url('https://fonts.googleapis.com/css?family=Arimo|Nunito|Raleway');
+
+*{
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+
+.what{
+  position: relative;
+font-size: 20px;
+color: #E74C3C;
+font-family:Lucida Sans;
+margin-left: 15%;
+top: 80px;
+}
+
+.where{
+  font-size: 20px;
+color: #E74C3C;
+font-family:Lucida Sans;
+margin-left: 60%;
+}
+
+.what > input {
+  background:inherit;
+  width: 230px;
+    height: 35px;
+    border: 2px solid #ffbcd8;
+    border-radius: 5px;
+  line-height: 2em;
+}
+
+ .where > input{
+
+  background:inherit;
+  width: 230px;
+    height: 35px;
+    border: 2px solid #ffbcd8;
+    border-radius: 5px;
+position: absolute;
+  line-height: 2em;
+
+}
+#uploadp{
+  font-family: candara;
+  position: relative;
+  top: -20px;
+left: 30px;
+}
+
+
+/**
+WEBSITE WEBCRAW
+*/
+#search-page-p{
+  position: relative;
+  top:-20px;
+  font-size: 35px;
+font-family: 'Actor', sans-serif;
+color:#187F0D;
+left: 18%;
+z-index: 1;
+}
+#link-link:hover{
+  color: #421635;
+  text-decoration: underline
+}
+
+#link-link{
+  display: block;
+font-weight:bold;font-size:15px;position:absolute; top:20px;left:90px;
+  color: #742879;
+line-height: 1em;
+}
+.search-content{
+  position: relative;
+width: 750px;
+  left: 30%;
+  top: -50px;
+  z-index: 1;
+}
+
+hr{ background: -webkit-linear-gradient(left, #000, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,  #000, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #DCC6E0, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#DCC6E0, #fff); /* Standard syntax (must be last) */
+
+}
+.search-content-query{
+position: relative;
+  width: 650px;
+  border-radius: 3px;
+  margin-top: 50px;
+background-color: #faf2ef;
+  height: 150px;
+  -webkit-box-shadow:0px 0px 20px 2px rgba(0,0,0,0.1);
+  -o-box-shadow:0px 0px 20px 2px rgba(0,0,0,0.1);
+  -ms-box-shadow:0px 0px 20px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow:0px 0px 20px 2px rgba(0,0,0,0.1);
+  box-shadow:0px 2px 3px 1px rgba(0,0,0,0.1);
+font-weight: 100;
+}
+.search-error{
+  position: absolute;
+  height: 240px;
+}
+
+.search-error > p:nth-child(1){
+  position: inherit;
+  color: #950303;
+  font-size: 20px;
+  top: 23px;
+  left:15%;
+}
+
+.search-error > p:nth-child(1)>span{
+  color: #6F5757;
+font-size: 1.4em;
+}
+#search-error-tips{
+  position: inherit;
+  top: 10px;
+}
+#search-error-tips >ul{
+position: inherit;
+font-size: 13px;
+left: 23px;
+}
+
+#search-error-tips >p{
+font-size: 18px;
+}
+.search-content-query img{
+position:relative;
+top:5px;
+left:-10px;
+width: 15px;
+height: 15px;
+}
+.search-content-query p{
+position:relative;top:20px;left:50px;
+margin:0px;
+font-size: 12px;
+text-transform: capitalize;
+}
+.webcraw-content{
+  position: relative;
+  left: 300px;
+  height:150px;
+  margin:2px;
+}
+.webcraw-content >#web-link{
+  text-decoration: underline;
+  font-size: 11px;
+  line-height: 2em;
+  margin: 20px;
+  color: #441723;
+}
+.webcraw-content >#tite{
+  margin: 20px;
+  position: absolute;
+  top: -15px;
+}
+
+.webcraw-content >#tite:hover{
+  text-decoration: underline;
+}
+.search-webcraw-desc{
+  position: absolute;
+  font-size: 13px;
+  line-height: 2em;
+  color: #5c1f47;
+font-weight: normal;
+box-sizing: border-box;
+word-wrap:normal;
+left: 20px;
+width: 600px;
+}
+/**
+ENDWEBSITE WEBCRAW
+*/
+
+
+/**
+Start About Acejob css
+**/
+.Logo{
+  top: -20px;
+}
+
+input{
+  font-family:Lucida Sans;
+}
+
+
+.about-us #head-abt{
+position: relative;
+font-size: 30px;
+font-family: 'Open Sans', sans-serif;
+left: 25%;
+color: #59F769;
+}
+
+.about-us img{
+width: 100%;height: 400px;
+}
+
+.vision #v-head{
+  font-size: 30px;
+  font-family:candara;
+  text-align: center;
+}
+.vision hr{
+  position: relative;
+  width: 800px;
+left: 20%;
+  height: 5px;
+  border: none;
+  border-style: outset;
+  background: lightblue;
+}
+#about-us-p{
+  position: relative;
+  font-family:'Open Sans', sans-serif;font-size:14px;padding:40px;text-align:center;width:80%;left:10%;top:30px;
+}
+/**
+End About Acejob css
+***/
+
+#hint1{
+  font-size: 11px;
+color: #95a5a6;
+font-family:Lucida Sans;
+}
+
+#hint2{
+  font-size: 11px;
+color: #95a5a6;
+font-family:Lucida Sans;
+position: relative;
+top: 12px;
+}
+
+
+
+a{
+text-decoration: none;
+  }
+
+.upload-resume{
+  font-size: 12px;
+}
+.upload-resume a{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#uploadimgp{
+  position: relative;
+  left: 48%;
+  top: -14px;
+  -webkit-font-family:candara;
+  -moz-font-family:candara;
+  -ms-font-family:candara;
+  -o-font-family:candara;
+font-family:candara;
+}
+.upload-resume >a:nth-last-child(2){
+  position: relative;
+  left: 37%;
+  top: 20px;
+}
+#advance{
+  position: relative;
+  top: -50px;
+  left: 35%;
+}
+#advance:active{
+  color: red;
+}
+#advance:hover{
+  text-decoration: underline;
+}
+.create-account{
+  background-color:inherit;
+  position: relative;
+  left: 0;
+  clear: both;
+}
+
+.create-account-form{
+  background: inherit;
+  position: relative;
+  width: 500px;
+  top: 0px;
+left: 30%;
+border: 3px solid #ddd;
+border-radius: 10px;
+height: 500px;
+}
+.create-account-form >h2{
+margin-left: 30%;
+margin-top: 20px;
+color:#000;
+}
+
+.form-content{
+margin-left: 5%;
+padding: 40px;
+}
+.form-content p{
+  font-size: 16px;
+  color: #232324;
+  font-family:  'Raleway', sans-serif;
+  margin-left: 10px;
+}
+.form-content input{
+  width: 300px;
+  height: 30px;
+  margin-left:-50px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.form-content input[type=checkbox]{
+  width: 16px;
+  height: 16px;
+}
+
+.submit-btn{
+  height: 33px;
+  width: 100px;
+  margin-left: 37%;
+  margin-top: 10px;
+  border: none;
+  -webkit-background:linear-gradient(to right,#8E44AD,#7e349d);
+  -ms-background:linear-gradient(to right,#8E44AD,#7e349d);
+  -moz-background:linear-gradient(to right,#8E44AD,#7e349d);
+  -o-background:linear-gradient(to right,#8E44AD,#7e349d);
+  background:linear-gradient(to right,#8E44AD,#7e349d);
+
+  color: ghostwhite;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+
+
+@media all and (max-width:800px){
+.create-account-form{
+  margin-left: -22%;
+}
+
+}
+
+
+@media all and (max-width:600px) {
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+  .create-account-form{
+    margin-left: -30%;
+    margin-top: 35%;
+  }
+
+  #search-img{
+    margin-top: 23px;
+  }
+
+
+  .what{
+  position: absolute;
+      font-size: 15px;
+  top: 50%;
+  left: 10%;
+  }
+
+  .where{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+  }
+
+  .what > input , .where > input{
+    height: 25px;
+    border: 2px solid #ffbcd8;
+    border-radius: 5px;
+width: 123px;
+  }
+
+}

@@ -1,0 +1,45 @@
+
+
+
+			Project work
+			Company details
+lmage:
+ Company name
+Company address
+country
+Email.
+company size
+
+				POSTers DETAILS
+full name 
+gender
+Depatrment
+Position
+Age requirement
+
+				JOB DETAILS
+Job Tilte;
+Job Description;
+
+
+Experience;
+Requirement;
+Ethnic
+Language:
+			
+
+
+
+
+	Post Resume
+Personal Details;
+ Title
+Name
+Age
+Gender 
+MArital Status
+Address/zip code/State/city
+Country
+ethnic
+Language
+passport photo

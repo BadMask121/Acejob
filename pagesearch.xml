@@ -1,0 +1,28 @@
+<acejob Main="main">
+
+  <pages>
+    <title>Home | Acejob</title>
+    <description>Acejob is a platform for unemployed personel facing difficulty in searching for a good paying job worldwide.We provide 24/7 customer care service and also offer other services such as visual interview </description>
+    <url>/Acejob/Home</url>
+  </pages>
+
+
+    <pages>
+      <title>Find Job employers</title>
+      <description>Find companies and organisation with over 5000 job vacancies from different parts of the world from over 15 countries with top employing companies e.g  Avon: 1,040,Terminix: 996,T-Mobile: 986,Koch Davis: 979,Giant Eagle: 964</description>
+      <url>/Acejob/acejobfind</url>
+    </pages>
+
+    <pages>
+      <title>About Acejob</title>
+      <description>Acejob a worldwide job searching site, Acejob is available in more than 60 countries and 28 languages, covering 94% of global GDP. Since 2017, Acejob has given job seekers free access to millions of jobs from thousands of company websites and job boards. As the leading pay-for-performance recruitment advertising network with Ultra modern virtual interviews, Acejob drives millions of targeted applicants to jobs in every field and is the most cost-effective source of candidates for thousands of companies. Co-founded by Emakpor Jeffrey Efemena, Hanane Bello and Paul Bowers Adusei MO-Dey. Acejob is a subsidiary of AceNation Co. LTD in Ghana Africa, Acejob has offices in Accra-Ghana, Lagos-Nigeria. For more information about Acejob, see our blog, press releases or contact us.</description>
+      <url>/Acejob/about?hr=aboutacejob.com?</url>
+    </pages>
+
+    <pages>
+      <title>Search for employees </title>
+      <description></description>
+      <url>/Acejob/employ/employee</url>
+    </pages>
+
+</acejob>

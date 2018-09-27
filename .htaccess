@@ -1,0 +1,18 @@
+Options FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+ErrorDocument 403 notfound.php
+ErrorDocument 404 /Acejob.com/erro/notfound.php
+DirectoryIndex Home.php       
+order deny,allow
+deny from Acejob.com\img
